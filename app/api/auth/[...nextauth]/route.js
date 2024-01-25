@@ -45,7 +45,7 @@ const handler = NextAuth({
                 console.log('Sign In Error: '+error);
                 return false;
             }
-        }
+        },
     },
    
 })
